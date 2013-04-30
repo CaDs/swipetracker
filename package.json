@@ -1,0 +1,19 @@
+{
+  "description": "swipe tracking tool for kumapon",
+  "version": "0.0.1-5",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "redis": "~0.8.1",
+    "dynamo": "~0.2.13",
+    "dynamodb": "~0.3.5"
+  },
+  "subdomain": "CaDs.swipe_tracker",
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "name": "swipetracker"
+}
